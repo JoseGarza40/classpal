@@ -3,7 +3,7 @@ const router=Router();
 const initial= require("../controllers/defaultController");
 
 router.route("/")
-.get(initial.getall);
+.get(initial.welcome);
 
 router.route("/signup")
 .post(initial.register);
